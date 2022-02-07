@@ -1,0 +1,61 @@
+.folder_container, .file{
+	display:block;
+	padding: 5px 5px 5px 50px;
+}
+
+.folder, .file
+{
+    cursor: pointer;
+}
+
+.folder:hover,.file:hover
+{
+    background: #c9daf0;
+}
+
+.folder{
+	color:#3f51b5;
+}
+
+.file{
+	color:#fc3003;
+}
+
+#flex-container{
+	display:flex;
+}
+
+.flex-element{
+	margin:5px;
+	height:100vh;
+	border:2px solid #3f51b5;
+	border-radius:5px;
+	overflow-x: auto;
+	overflow-y: auto;
+}
+
+#left-element{
+	width:calc(70% - 14px);
+}
+#right-element{
+	padding: 5px;
+	width:calc(30% - 24px);
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:space-evenly;
+}
+
+input[type="file"]{
+	background-color:#3f51b5;
+	color:white;
+	padding:5px;
+}
+
+.list-container{
+	height:300px;
+	width:300px;
+	overflow-y:auto;
+	overflow-x:auto;
+}
+

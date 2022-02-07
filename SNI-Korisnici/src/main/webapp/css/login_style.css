@@ -1,0 +1,15 @@
+.card-container {
+  margin: 0 auto;
+  margin-top: 10%;
+}
+
+.mdl-card__title-text {
+  color: #534fab;
+}
+
+.mdl-card__actions {
+  display: flex;
+  justify-content: center;
+}
+
+	

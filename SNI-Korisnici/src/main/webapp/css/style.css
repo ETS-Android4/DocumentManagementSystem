@@ -1,0 +1,68 @@
+.card-container {
+  margin: 0 auto;
+}
+
+.mdl-card__title-text {
+  color: #534fab;
+}
+
+tr,
+th,
+td {
+  border: 1px #534fab solid;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+#tabela {
+  margin: 10px;
+  border: 1px #534fab solid;
+  border-collapse: collapse;
+  width: calc(100% - 20px);
+}
+
+#delBtn {
+  margin-top: 10px;
+}
+
+.myDiv {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+}
+
+#clientAdditional {
+  display: none;
+}
+
+#clientAndADAdditional {
+  display: none;
+}
+
+#clientAdditionalUpdate {
+  display: none;
+}
+
+#clientAndADAdditionalUpdate {
+  display: none;
+}
+
+.mdl-card__actions {
+  display: flex;
+  justify-content: center;
+}
+
+.myImg {
+  width: 20px;
+  height: 20px;
+}
+
+#updateForm {
+  display: none;
+}

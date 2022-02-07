@@ -1,0 +1,28 @@
+@charset "ISO-8859-1";
+
+tr,
+th,
+td {
+  border: 1px #534fab solid;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+#tabela {
+  margin: 10px;
+  border: 1px #534fab solid;
+  border-collapse: collapse;
+  width: calc(100% - 20px);
+}
+
+.myDiv {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+}
